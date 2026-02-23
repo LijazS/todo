@@ -1,0 +1,65 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background: #2c3e50;
+  color: white;
+  padding: 16px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 { font-size: 1.4rem; }
+
+#api-status {
+  font-size: 0.85rem;
+  background: #34495e;
+  padding: 4px 10px;
+  border-radius: 12px;
+}
+
+main { max-width: 800px; margin: 24px auto; padding: 0 16px; }
+
+section { background: white; border-radius: 6px; padding: 20px; margin-bottom: 20px; box-shadow: 0 1px 4px rgba(0,0,0,0.1); }
+
+h2 { margin-bottom: 14px; font-size: 1.1rem; color: #2c3e50; }
+
+input {
+  width: 100%;
+  padding: 8px 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 0.95rem;
+}
+
+button {
+  padding: 8px 16px;
+  background: #2980b9;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+button:hover { background: #1a6fa3; }
+
+table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+
+th, td { padding: 10px; text-align: left; border-bottom: 1px solid #eee; }
+
+th { background: #f9f9f9; font-weight: 600; }
+
+.done td { text-decoration: line-through; color: #999; }
+
+.btn-done   { background: #27ae60; margin-right: 6px; }
+.btn-done:hover  { background: #1e8449; }
+.btn-delete { background: #e74c3c; }
+.btn-delete:hover { background: #c0392b; }
